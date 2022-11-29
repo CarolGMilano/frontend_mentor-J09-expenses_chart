@@ -1,0 +1,15 @@
+@import url("mobile/body.css");
+@import url("mobile/card.css");
+
+@import url("desktop/card.css");
+
+:root {
+    --azul_bebe: hsl(186, 34%, 60%);
+    --branco_alaranjado: hsl(33, 100%, 98%);
+    --laranja: hsl(10, 79%, 65%);
+    --laranja_claro: hsl(27, 66%, 92%);
+    --marrom_escuro: hsl(25, 47%, 15%);
+    --marrom_pastel: hsl(28, 10%, 53%);
+
+    --fonte: 'DM Sans', sans-serif;
+}

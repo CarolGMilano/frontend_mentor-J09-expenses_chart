@@ -1,0 +1,23 @@
+@media screen and (min-width: 445px) {
+    main {
+        padding: 2rem;
+    }
+    .card {
+        margin: 0 auto;
+        width: 410px;
+    }
+
+    .grafico__semana .semana__gasto {
+        font-size: 13px;
+        padding: .35rem;
+        font-weight: 700;
+    }
+
+    .grafico__semana .semana__barra {
+        width: 40px;
+    }
+
+    .grafico__semana .semana__dia {
+        font-size: 15px;
+    }
+}

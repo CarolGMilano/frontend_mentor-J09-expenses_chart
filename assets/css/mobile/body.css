@@ -1,0 +1,27 @@
+body {
+    background-color: var(--laranja_claro);
+    width: 100vw;
+    height: 100vh;
+    font-family: var(--fonte);
+    font-weight: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    width: 92%;
+    overflow: hidden;
+}
+
+.grafico__semana .semana__barra:hover {
+    opacity: .6;
+}
+
+.none {
+    opacity: 0;
+}
+
+.visivel {
+    opacity: 1;
+}

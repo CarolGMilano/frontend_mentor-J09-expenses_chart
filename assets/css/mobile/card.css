@@ -1,0 +1,181 @@
+.card,
+.card__cabecalho,
+.cabecalho__balanco,
+.card__corpo,
+.corpo__grafico,
+.corpo__grafico .grafico__semana,
+.corpo__gasto,
+.corpo__gasto .gasto__controle {
+    display: flex;
+}
+
+.card,
+.cabecalho__balanco,
+.card__corpo,
+.corpo__grafico .grafico__semana,
+.corpo__gasto .gasto__controle {
+    flex-direction: column;
+}
+
+.card {
+    row-gap: .8rem;
+}
+
+.card__cabecalho,
+.corpo__gasto {
+    justify-content: space-between;
+}
+
+.card__cabecalho,
+.card__corpo {
+    border-radius: 10px;
+    padding: 1.2rem;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.card__cabecalho {
+    background-color: var(--laranja);
+}
+
+.cabecalho__balanco {
+    row-gap: .2rem;
+}
+
+.cabecalho__balanco .balanco__titulo,
+.cabecalho__balanco .balanco__valor,
+.grafico__semana .semana__gasto {
+    color: var(--branco_alaranjado);
+}
+
+.cabecalho__balanco .balanco__titulo,
+.corpo__total,
+.gasto__controle .controle__descricao {
+    font-weight: 400;
+}
+
+.cabecalho__balanco .balanco__titulo {
+    font-size: 14px;
+}
+
+.cabecalho__balanco .balanco__valor,
+.card__corpo .corpo__titulo {
+    font-size: 24px;
+}
+
+.cabecalho__balanco .balanco__valor,
+.card__corpo .corpo__titulo,
+.corpo__gasto .gasto__valor,
+.gasto__controle .controle__porcentagem {
+    font-weight: 700;
+}
+
+.cabecalho__logo {
+    width: 60px;
+    height: auto;
+}
+
+.card__corpo {
+    background-color: var(--branco_alaranjado);
+}
+
+.card__corpo .corpo__titulo,
+.corpo__gasto .gasto__valor,
+.gasto__controle .controle__porcentagem {
+    color: var(--marrom_escuro);
+}
+
+.card__corpo .corpo__titulo {
+    margin-bottom: 1rem;
+}
+
+.corpo__grafico {
+    padding-bottom: 1.5rem;
+    border-bottom: 1px solid var(--laranja_claro);
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.corpo__grafico .grafico__semana {
+    align-items: center;
+    row-gap: .3rem;
+}
+
+.grafico__semana .semana__gasto {
+    font-size: 12px;
+    background-color: var(--marrom_escuro);
+    padding: .3rem;
+    border-radius: 5px;
+    transition: .3s;
+    margin-bottom: .3rem;
+}
+
+.grafico__semana .semana__barra {
+    width: 35px;
+    background-color: var(--laranja);
+    border-radius: 5px;
+    transition: .3s;
+}
+
+.grafico__semana:nth-child(1) .semana__barra {
+    height: 65px;
+}
+
+.grafico__semana:nth-child(2) .semana__barra {
+    height: 40px;
+}
+
+.grafico__semana:nth-child(3) .semana__barra {
+    height: 95px;
+}
+
+.grafico__semana:nth-child(4) .semana__barra {
+    height: 150px;
+}
+
+.grafico__semana:nth-child(5) .semana__barra {
+    height: 85px;
+}
+
+.grafico__semana:nth-child(6) .semana__barra {
+    height: 60px;
+}
+
+.grafico__semana:nth-child(7) .semana__barra {
+    height: 120px;
+}
+
+.grafico__semana .semana__dia {
+    font-size: 13px;
+}
+
+.grafico__semana .semana__dia,
+.corpo__total,
+.gasto__controle .controle__descricao{
+    color: var(--marrom_pastel);
+}
+
+.corpo__total {
+    padding-top: 1.5rem;
+    padding-bottom: .3rem;
+}
+
+.corpo__total,
+.corpo__gasto .controle__descricao {
+    font-size: 16px;
+}
+
+.corpo__gasto {
+    align-items: center;
+}
+
+.corpo__gasto .gasto__valor {
+    font-size: 32px;
+}
+
+.corpo__gasto .gasto__controle {
+    align-items: flex-end;
+}
+
+.gasto__controle .controle__porcentagem {
+    font-size: 17px;
+}

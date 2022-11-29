@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap" rel="stylesheet">
+
+        <link rel="stylesheet" href="assets/css/reset.css">
+        <link rel="stylesheet" href="assets/css/style.css">
+
+        <link rel="shortcut icon" href="assets/img/favicon-32x32.png" type="image/x-icon">
+        <title>Frontend Mentor | Expenses chart component</title>
+    </head>
+
+    <body>
+        <main>
+            <section class="card">
+                <div class="card__cabecalho">
+                    <div class="cabecalho__balanco">
+                        <span class="balanco__titulo">My balance</span>
+                        <h1 class="balanco__valor">$921.48</h1>
+                    </div>
+
+                    <img src="assets/img/logo.svg" alt="Logo - Expenses Chart" class="cabecalho__logo">
+                </div>
+
+                <div class="card__corpo">
+                    <h2 class="corpo__titulo">Spending - Last 7 days</h2>
+
+                    <div class="corpo__grafico">
+                        <div class="grafico__semana">
+                            <span class="semana__gasto none">$25.48</span>
+                            <div class="semana__barra"></div>
+                            <span class="semana__dia">sun</span>
+                        </div>
+
+                        <div class="grafico__semana">
+                            <span class="semana__gasto none">$17.45</span>
+                            <div class="semana__barra"></div>
+                            <span class="semana__dia">mon</span>
+                        </div>
+
+                        <div class="grafico__semana">
+                            <span class="semana__gasto none">$34.91</span>
+                            <div class="semana__barra"></div>
+                            <span class="semana__dia">tue</span>
+                        </div>
+
+                        <div class="grafico__semana">
+                            <span class="semana__gasto none">$52.36</span>
+                            <div class="semana__barra"></div>
+                            <span class="semana__dia">wed</span>
+                        </div>
+
+                        <div class="grafico__semana">
+                            <span class="semana__gasto none">$31.07</span>
+                            <div class="semana__barra"></div>
+                            <span class="semana__dia">thu</span>
+                        </div>
+
+                        <div class="grafico__semana">
+                            <span class="semana__gasto none">$23.39</span>
+                            <div class="semana__barra"></div>
+                            <span class="semana__dia">fri</span>
+                        </div>
+
+                        <div class="grafico__semana">
+                            <span class="semana__gasto none">$43.28</span>
+                            <div class="semana__barra"></div>
+                            <span class="semana__dia">sat</span>
+                        </div>
+                    </div>
+
+                    <p class="corpo__total">Total this month</p>
+
+                    <div class="corpo__gasto">
+                        <h3 class="gasto__valor">$478.33</h3>
+
+                        <div class="gasto__controle">
+                            <span class="controle__porcentagem">+2.4%</span>
+                            <p class="controle__descricao">from last month</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
